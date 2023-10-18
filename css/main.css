@@ -3,7 +3,11 @@
 }
 
 .bg-color-header{
-    background-color: #B7D1DA;
+    background-color: #90e0ef;
+}
+
+body{
+    background-color: #ffe8d2;
 }
 
 #navbar-items .navbar-nav{
@@ -26,3 +30,17 @@ img{
     font-weight: 600;
 }
 
+@media screen and (max-width: 600px) { 
+    .row{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+
+        height: 40rem;
+        width: 40rem;
+      
+    }
+    
+}
