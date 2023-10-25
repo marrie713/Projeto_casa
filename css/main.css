@@ -313,3 +313,9 @@
 #links-container a:hover {
   color: #fff;
 }
+
+/* Forms */
+
+.form-control{
+  width: 20rem;
+}
