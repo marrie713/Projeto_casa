@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Projeto casa</title>
+    <title>Projeto</title>
 
     <!-- Google Fonts - Robot-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,8 +27,7 @@
     <nav class="navbar navbar-expand-lg fixed-top bg-stilo-nav">
         <section class="container py-3">
             <a href="#" class="navbar-brand">
-                <img class="img-fluid" src="img/logo.png" alt="Logo">
-                <span>Technology</span>
+                <img class="img-fluid" src="https://www.caviarcriativo.com/storage/2020/06/logotipo-da-netflix.jpg" alt="Logo">
             </a>
             <!-- Criação do botão para representar o menu hamburguer -->
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-items"
@@ -39,11 +38,10 @@
             <!-- Definição dos links do menu -->
             <section class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Projetos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Dicas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#slider-container">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mini-banners">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#featured-container">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer">Contato</a></li>
                 </ul>
             </section>
         </section>
@@ -53,7 +51,7 @@
 <body>
     <!-- Definição do Slider -->
     <section class="container" id="slider-container">
-        <section class="carousel slide" id="slider" data-bs-interval="1000" data-bs-ride="carousel">
+        <section class="carousel slide" id="slider" data-bs-interval="2500" data-bs-ride="carousel">
             <section class="carousel-indicators">
 
                 <!-- Criação dos botões que representam as imagens-->
@@ -70,37 +68,33 @@
             <!-- Definição do conteúdo do carrousel -->
             <section class="carousel-inner">
                 <section class="carousel-item active">
-                    <img src="img/tecnologia1.jpg" alt="Imagem 1" class="d-block w-100">
-                    <section class="carousel-caption">
-                        <h5>Imagem 1</h5>
+                    <img src="img/ApesarDeTudoAmor.jpg" alt="Imagem 1" class="d-block w-100">
+                    <section class="carousel-caption">       
                         <a href="#" class="btn btn-dark">Veja mais</a>
                     </section>
                 </section>
 
                 <section class="carousel-item">
-                    <img src="img/tecnologia2.jpg" alt="" class="d-block w-100">
+                    <img src="img/EliteBanner.jpg" alt="" class="d-block w-100">
+                    <section class="carousel-caption">  
+                        <a href="#" class="btn btn-dark">Veja mais</a>
+                    </section>
+                </section>
+                <section class="carousel-item">
+                    <img src="img/TheGlory.jpg" alt="" class="d-block w-100">
                     <section class="carousel-caption">
-                        <h5>Imagem 2</h5>
                         <a href="#" class="btn btn-dark">Veja mais</a>
                     </section>
                 </section>
 
                 <section class="carousel-item">
-                    <img src="img/tecnologia3.jpg" alt="" class="d-block w-100">
+                    <img src="img/JogosVorazes.jpg" alt="" class="d-block w-100">
                     <section class="carousel-caption">
-                        <h5>Imagem 3</h5>
-                        <a href="#" class="btn btn-dark">Veja mais</a>
-                    </section>
-                </section>
-
-                <section class="carousel-item">
-                    <img src="img/tecnologia4.jpg" alt="" class="d-block w-100">
-                    <section class="carousel-caption">
-                        <h5>Imagem 4</h5>
                         <a href="#" class="btn btn-dark">Veja mais</a>
                     </section>
                 </section>
             </section>
+            
 
             <button type="button" class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev">
                 <i class="bi bi-chevron-left"></i>
@@ -179,8 +173,8 @@
     <!-- Container dos desatques -->
     <section class="container" id="featured-container">
         <section class="col-12">
-            <h2 class="title primary-color">Trabalho em destaque</h2>
-            <p class="subtitle secondary-color">Conheça nossos projetos mais desafiadores</p>
+            <h2 class="text-light">Trabalho em destaque</h2>
+            <p class="text-light">Conheça nossos projetos mais desafiadores</p>
         </section>
 
         <!-- Início das imagens-->
@@ -188,50 +182,74 @@
             <section class="row g-4">
 
                 <section class="col-12 col-md-4">
-                    <img src="img/tecnologia1.jpg" alt="" class="img-fluid">
+                    <img src="img/Elite.jpg" alt="" class="img-fluid">
                     <section class="banner-content">
                         <p>Categoria</p>
-                        <h3>Nome do projeto</h3>
+                        <h3>Elite</h3>
                     </section>
                 </section>
 
                 <section class="col-12 col-md-4">
-                    <img src="img/tecnologia2.jpg" alt="" class="img-fluid">
+                    <img src="img/FlowerOfEvil.jpg" alt="" class="img-fluid">
                     <section class="banner-content">
                         <p>Categoria</p>
-                        <h3>Nome do projeto</h3>
+                        <h3>Flower of Evil</h3>
                     </section>
                 </section>
 
                 <section class="col-12 col-md-4">
-                    <img src="img/tecnologia4.jpg" alt="" class="img-fluid">
+                    <img src="img/Celebrity.jpg" alt="" class="img-fluid">
                     <section class="banner-content">
                         <p>Categoria</p>
-                        <h3>Nome do projeto</h3>
+                        <h3>Celebrity</h3>
                     </section>
                 </section>
 
                 <section class="col-12 col-md-4">
-                    <img src="img/tecnologia1.jpg" alt="" class="img-fluid">
+                    <img src="img/ItsOkNotBeOk.jpg" alt="" class="img-fluid">
                     <section class="banner-content">
                         <p>Categoria</p>
-                        <h3>Nome do projeto</h3>
+                        <h3>It´s Okay to Not Be Okay</h3>
                     </section>
                 </section>
 
                 <section class="col-12 col-md-4">
-                    <img src="img/tecnologia2.jpg" alt="" class="img-fluid">
+                    <img src="img/MaskGirl.jpg" alt="" class="img-fluid">
                     <section class="banner-content">
                         <p>Categoria</p>
-                        <h3>Nome do projeto</h3>
+                        <h3>Mask Girl</h3>
                     </section>
                 </section>
 
                 <section class="col-12 col-md-4">
-                    <img src="img/tecnologia4.jpg" alt="" class="img-fluid">
+                    <img src="img/Bridgerton.jpg" alt="" class="img-fluid">
                     <section class="banner-content">
                         <p>Categoria</p>
-                        <h3>Nome do projeto</h3>
+                        <h3>Bridgerton</h3>
+                    </section>
+                </section>
+
+                <section class="col-12 col-md-4">
+                    <img src="img/JogosVorazesEmChamas.jpg" alt="" class="img-fluid">
+                    <section class="banner-content">
+                        <p>Categoria</p>
+                        <h3>Jogos Vorazes: Em Chamas</h3>
+                    </section>
+                </section>
+
+                <section class="col-12 col-md-4">
+                    <img src="img/TheWitcher.jpg" alt="" class="img-fluid">
+                    <section class="banner-content">
+                        <p>Categoria</p>
+                        <h3>The Witcher</h3>
+                    </section>
+                </section>
+
+                <section class="col-12 col-md-4">
+                    <img src="img/Outlander.jpg" alt="" class="img-fluid">
+                    <section class="banner-content">
+                        <p>Categoria</p>
+                        <h3>Outlander</h3>
                     </section>
                 </section>
 
@@ -245,8 +263,8 @@
     <!-- Informações -->
     <section class="container" id="info-container">
         <section class="col-12">
-            <h2 class="title primary-color">Informações</h2>
-            <p class="subtitle-secondary-color">Conheça nossos destaques</p>
+            <h2 class="text-light">Informações</h2>
+            <p class="text-light">Conheça nossos destaques</p>
         </section>
 
         <!-- Nesta seção, iremos utilizar a adoção dos modais do Bootstrap -->
@@ -299,7 +317,7 @@
     <footer class="container-fluid bg-dark" id="footer">
        <section class="container">
         <section class="col-12">
-            <h2 class="title info">Informações</h2>
+            <h2 class="title info">Contato</h2>
             <p class="subtitle-secondary-color">Conheça nossos destaques</p>
         </section>
        
@@ -309,9 +327,6 @@
                     <section class="col-12" id="footer-top">
                         <section class="row justify-content-between">
                             <section class="col-4">
-                                <h2>
-                                    Technology
-                                </h2>
                             </section>
 
                             <section class="col-4">

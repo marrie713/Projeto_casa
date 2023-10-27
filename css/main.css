@@ -7,7 +7,19 @@
 
 /* Formata o background do menu */
 .bg-stilo-nav {
-  background-color: rgb(229, 234, 235);
+  background-color: rgb(0, 0, 0);
+}
+
+body{
+  background-color: rgb(58, 57, 57);
+}
+
+.nav-link{
+  color: #fff;
+}
+
+span{
+  color: #fff;
 }
 
 .bg-secondary-color {
@@ -48,7 +60,7 @@
 }
 
 .navbar-brand img {
-  width: 40px;
+  width: 6rem;
 }
 
 .navbar-brand span {
