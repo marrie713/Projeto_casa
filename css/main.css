@@ -319,3 +319,9 @@
 .form-control{
   width: 20rem;
 }
+
+/* Modal */
+
+#button-modal{
+  margin-bottom: 2rem;
+}
